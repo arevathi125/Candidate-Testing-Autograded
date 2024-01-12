@@ -93,8 +93,9 @@ describe("Candidate Testing solution", function() {
   it("Test 17. gradeQuiz is case insensitive", function() {
     solution.candidateAnswers = ["sally ride", "TRUE", "40", "TrAjEcToRy", "3"];
     expect(solution.gradeQuiz(solution.candidateAnswers)).toBe(100);
+    
 	});
 
-	
- 
+ 	
+  
  });
